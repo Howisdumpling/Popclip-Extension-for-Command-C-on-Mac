@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>copy</string>
+			<key>AppleScript File</key>
+			<string>iPhone.applescript</string>
+			<key>Image File</key>
+			<string>iPhone.png</string>
+			<key>Long Running</key>
+			<false/>
+			<key>Title</key>
+			<string>Send to iPhone</string>
+                <key>Requirements</key>
+			<array>
+				<string>copy</string>
+				<string>option-iPhone-enabled=1</string>
+			</array>
+
+		</dict>
+           <dict>
+			<key>After</key>
+			<string>copy</string>
+			<key>AppleScript File</key>
+			<string>iPad.applescript</string>
+			<key>Image File</key>
+			<string>iPad.png</string>
+			<key>Long Running</key>
+			<false/>
+			<key>Title</key>
+			<string>Send to iPad</string>
+                <key>Requirements</key>
+			<array>
+				<string>copy</string>
+				<string>option-iPad-enabled=1</string>
+			</array>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Send selected text to Apple devices via Command-C</string>
+	<key>Extension Identifier</key>
+	<string>com.Sspai.extension.command-c</string>
+	<key>Extension Name</key>
+	<string>Command-C</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string>0</string>
+			<key>Option Identifier</key>
+			<string>iPhoneposition</string>
+			<key>Option Label</key>
+			<string>iPhone Position</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+          <dict>
+			<key>Option Default Value</key>
+			<string>1</string>
+			<key>Option Identifier</key>
+			<string>iPadposition</string>
+			<key>Option Label</key>
+			<string>iPad Position</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+            <dict>
+			<key>Option Default Value</key>
+			<string>1</string>
+			<key>Option Identifier</key>
+			<string>iPhone-enabled</string>
+			<key>Option Label</key>
+			<string>iPhone</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+             <dict>
+			<key>Option Default Value</key>
+			<string>1</string>
+			<key>Option Identifier</key>
+			<string>iPad-enabled</string>
+			<key>Option Label</key>
+			<string>iPad</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+
+	</array>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
