@@ -1,3 +1,3 @@
 tell application "System Events"
-	do shell script "open 'command-c://x-callback-url/copyText?text={popclip urlencoded text}&deviceIndex={popclip option iphoneposition}'"
+	do shell script "open 'command-c://x-callback-url/copy?&deviceIndex={popclip option iphoneposition}'"
 end tell

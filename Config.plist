@@ -7,7 +7,7 @@
 		<dict>
 			<key>AppleScript File</key>
 			<string>iphone.applescript</string>
-			<key>After</key>
+			<key>Before</key>
 			<string>copy</string>
 			<key>Image File</key>
 			<string>iphone.png</string>
@@ -24,7 +24,7 @@
                <dict>
 			<key>AppleScript File</key>
 			<string>ipad.applescript</string>
-			<key>After</key>
+			<key>Before</key>
 			<string>copy</string>
 			<key>Image File</key>
 			<string>ipad.png</string>
