@@ -5,45 +5,45 @@
 	<key>Actions</key>
 	<array>
 		<dict>
+			<key>AppleScript File</key>
+			<string>iphone.applescript</string>
 			<key>After</key>
 			<string>copy</string>
-			<key>AppleScript File</key>
-			<string>iPhone.applescript</string>
 			<key>Image File</key>
-			<string>iPhone.png</string>
+			<string>iphone.png</string>
 			<key>Long Running</key>
 			<false/>
 			<key>Title</key>
 			<string>Send to iPhone</string>
-                <key>Requirements</key>
+                       <key>Requirements</key>
 			<array>
 				<string>copy</string>
-				<string>option-iPhone-enabled=1</string>
+				<string>option-iphone-enabled=1</string>
 			</array>
-
 		</dict>
-           <dict>
+               <dict>
+			<key>AppleScript File</key>
+			<string>ipad.applescript</string>
 			<key>After</key>
 			<string>copy</string>
-			<key>AppleScript File</key>
-			<string>iPad.applescript</string>
 			<key>Image File</key>
-			<string>iPad.png</string>
+			<string>ipad.png</string>
 			<key>Long Running</key>
 			<false/>
 			<key>Title</key>
 			<string>Send to iPad</string>
-                <key>Requirements</key>
+                      <key>Requirements</key>
 			<array>
 				<string>copy</string>
-				<string>option-iPad-enabled=1</string>
+				<string>option-ipad-enabled=1</string>
 			</array>
 		</dict>
+
 	</array>
 	<key>Extension Description</key>
-	<string>Send selected text to Apple devices via Command-C</string>
+	<string>Send selected text to First device on Command-C</string>
 	<key>Extension Identifier</key>
-	<string>com.Sspai.extension.command-c</string>
+	<string>com.SspaiCommand-C.extension</string>
 	<key>Extension Name</key>
 	<string>Command-C</string>
 	<key>Options</key>
@@ -52,42 +52,43 @@
 			<key>Option Default Value</key>
 			<string>0</string>
 			<key>Option Identifier</key>
-			<string>iPhoneposition</string>
+			<string>iphoneposition</string>
 			<key>Option Label</key>
 			<string>iPhone Position</string>
 			<key>Option Type</key>
 			<string>string</string>
 		</dict>
-          <dict>
+               <dict>
 			<key>Option Default Value</key>
 			<string>1</string>
 			<key>Option Identifier</key>
-			<string>iPadposition</string>
+			<string>ipadposition</string>
 			<key>Option Label</key>
 			<string>iPad Position</string>
 			<key>Option Type</key>
 			<string>string</string>
 		</dict>
-            <dict>
+               <dict>
 			<key>Option Default Value</key>
 			<string>1</string>
 			<key>Option Identifier</key>
-			<string>iPhone-enabled</string>
+			<string>iphone-enabled</string>
 			<key>Option Label</key>
-			<string>iPhone</string>
+			<string>iPhone Enabled</string>
 			<key>Option Type</key>
 			<string>boolean</string>
 		</dict>
-             <dict>
+               <dict>
 			<key>Option Default Value</key>
 			<string>1</string>
 			<key>Option Identifier</key>
-			<string>iPad-enabled</string>
+			<string>ipad-enabled</string>
 			<key>Option Label</key>
-			<string>iPad</string>
+			<string>iPad Enabled</string>
 			<key>Option Type</key>
 			<string>boolean</string>
 		</dict>
+
 
 	</array>
 	<key>Required Software Version</key>
